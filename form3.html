@@ -1,0 +1,181 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Form 3</title>
+</head>
+
+<body>
+    <div class="bg-dark w-100">
+        <p class="text-white mx-3">Reklasifikasi Tanah SISTEP</p>
+    </div>
+
+    <!-- WILAYAH START -->
+    <div class="d-flex flex-column p-3">
+        <div class="col p-2 border border-light">
+            <div class="d-flex flex-row m-2">
+                <div class="w-25">
+                    <p class="m-auto">Propinsi</p>
+                </div>
+                <div class="d-flex flex-row w-100">
+                    <input type="text" class="form-style-1 form-control">
+                    <input type="text" class="form-style-1 form-control w-75">
+                </div>
+            </div>
+            <div class="d-flex flex-row m-2">
+                <div class="w-25">
+                    <p class="m-auto">Dati II</p>
+                </div>
+                <div class="d-flex flex-row w-100">
+                    <input type="text" class="form-style-1 form-control">
+                    <input type="text" class="form-style-1 form-control w-75">
+                </div>
+            </div>
+            <div class="d-flex flex-row m-2">
+                <div class="w-25">
+                    <p class="m-auto">Kecamatan</p>
+                </div>
+                <div class="d-flex flex-row w-100">
+                    <input type="text" class="form-style-1 form-control">
+                    <input type="text" class="form-style-1 form-control w-75">
+                </div>
+            </div>
+            <div class="d-flex flex-row m-2">
+                <div class="w-25">
+                    <p class="m-auto">Kelurahan</p>
+                </div>
+                <div class="d-flex flex-row w-100">
+                    <input type="text" class="form-style-1 form-control">
+                    <input type="text" class="form-style-1 form-control w-75">
+                </div>
+            </div>
+        </div>
+        <!-- WILAYAH END -->
+
+        <!-- DATA KELAS START -->
+        <div class="d-flex flex-column border border-light">
+            <div class="row mx-1 w-50 p-0">
+                <p class="col-3">Seluruh kelurahan</p>
+                <label class="col row">
+                    <input type="checkbox" class="col border form-check-inline border-dark m-auto w-100">
+                    <p class="col my-auto">Ya</p>
+                </label>
+            </div>
+            <div class="d-flex flex-row mx-1 w-75 p-0 row">
+                <p class="w-25 col-1">Blok Nomor</p>
+                <label for="" class="w-75 mx-3 my-auto row col">
+
+                    <input type="text" class="form-style-1 form-control col w-25"><input type="text"
+                        class="form-style-1 form-control col w-25"><input type="text" class="form-style-1 form-control col w-25"><span
+                        class="mx-2 my-auto text-center col">-</span><input type="text"
+                        class="form-style-1 form-control col w-25"><input type="text" class="form-style-1 form-control col w-25"><input
+                        type="text" class="form-style-1 form-control col w-25">
+                </label>
+            </div>
+
+
+            <div class="d-flex flex-row mx-4 my-2 p-3 border border-2 border-secondary justify-content-center">
+                <div class="row w-25 "><input type="checkbox"
+                        class="col border form-check-inline border-dark m-auto w-100">
+                    <p class="col my-auto">Kenaikan</p>
+                </div>
+                <div class="row w-25 "><input type="checkbox"
+                        class="col border form-check-inline border-dark m-auto w-100">
+                    <p class="col my-auto">Penurunan</p>
+                </div>
+                <div class="row w-25 "><input type="checkbox"
+                        class="col border form-check-inline border-dark m-auto w-100">
+                    <p class="col my-auto">Dari Kelas Ke Kelas</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-evenly">
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-row m-2">
+                        <div class="w-100">
+                            <p class="m-auto">Tingkat Kenaikan/Penurunan Kelas</p>
+                        </div>
+                        <div class="d-flex flex-row w-25 m-auto">
+                            <input type="text" class="form-style-1 form-control w-75">
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row m-2">
+                        <div class="w-100">
+                            <p class="m-auto">Kelas Terendah (Maksimum Kelas 50)</p>
+                        </div>
+                        <div class="d-flex flex-row w-25 m-auto">
+                            <input type="text" class="form-style-1 form-control w-75">
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row m-2">
+                        <div class="w-100">
+                            <p class="m-auto">Kelas Terendah (Maksimum Kelas 50)</p>
+                        </div>
+                        <div class="d-flex flex-row w-25 m-auto">
+                            <input type="text" class="form-style-1 form-control w-75">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row mx-3">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-row m-2">
+                            <div class="w-50">
+                                <p class="m-auto">Dari Kelas</p>
+                            </div>
+                            <div class="d-flex flex-row w-25 m-auto">
+                                <input type="text" class="form-style-1 form-control w-75">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row m-2">
+                            <div class="w-50">
+                                <p class="m-auto">Ke Kelas</p>
+                            </div>
+                            <div class="d-flex flex-row w-25 m-auto">
+                                <input type="text" class="form-style-1 form-control w-75">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- DATA KELAS END -->
+
+        <!-- RECORD START -->
+        <div class="col p-2 border border-light d-flex flex-row justify-content-evenly">
+            <div class="d-flex flex-column">
+                <p class="text-center">Jumlah Record</p>
+                <input type="text" class="form-style-1 form-control w-100">
+            </div>
+            <div class="d-flex flex-column">
+                <p class="text-center">Jumlah Record</p>
+                <input type="text" class="form-style-1 form-control w-100">
+            </div>
+            <div class="d-flex flex-column w-25">
+                <p class="text-center">Jumlah Record</p>
+                <div class="d-flex flex-row w-50 mx-auto">
+                    <input type="text" class="form-style-1 form-control w-50">
+                    <input type="text" class="form-style-1 form-control w-75">
+                    <input type="text" class="form-style-1 form-control w-25">
+                </div>
+            </div>
+        </div>
+        <!-- RECORD START -->
+
+        <div class="d-flex flex-row justify-content-between my-4">
+            <div class="w-50 d-flex flex-row">
+                <button class="btn-outline-dark w-75 mx-2">Proses</button>
+                <button class="btn-outline-dark w-75 mx-2">Batal</button>
+            </div>
+            <div class="w-25">
+                <button class="btn-outline-dark w-100">Keluar</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

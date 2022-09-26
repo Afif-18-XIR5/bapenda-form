@@ -1,0 +1,20 @@
+.table-header-color{
+    background-color: #E7E7E7;
+}
+.reklame-btn{
+    background-color: white;
+    border: 3px solid #C8C9CA;
+    border-bottom: none;
+    border-radius: 3px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.reklame-border{
+    width: 90%;
+    margin-top: -1px;
+    margin-left: 133px;
+    border: 0.5px solid #E7E7E7;
+}
+.buttons{
+    width: 150px;
+}
